@@ -2,6 +2,14 @@ body{
    background-color: rgb(243, 242, 242);
 }
 
+header{
+    display: flex; 
+    flex-direction: row;
+    justify-content : space-between;
+    /* background-color: rgb(1, 242, 1); */
+    align-items: baseline
+}
+
 #top{
     display: flex; 
     flex-direction: row;
@@ -18,12 +26,41 @@ h1 {
    
 }
 
+#top{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content :left;
+    /* background-color: rgb(0, 242, 242); */
+  }
+
+.item0{
+    /* margin-right: 5px ;  */
+    margin-left: 5px ; 
+    margin-top: 5px ; 
+    margin-bottom: 5px ; 
+
+    /* background-color: rgb(0, 0, 242); */
+}  
+.item2{
+    margin-right: 5px ;  
+    margin-left: 0px ; 
+    margin-top: 5px ; 
+    margin-bottom: 5px ; 
+
+    /* background-color: rgb(0, 0, 242); */
+}   
+.item1{
+    margin: 5px; 
+    /* background-color: rgb(0, 0, 242); */
+} 
+
 .projects{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap ;
   justify-content :center;
-  background-color: rgb(243, 242, 242);
+  /* background-color: rgb(243, 242, 242); */
 }
 
 .project{
@@ -43,7 +80,7 @@ img {
     flex-direction: row;
     flex-wrap: wrap ;
     justify-content :right;
-    /* background-color: rgb(243, 242, 1); */
+    /* background-color: rgb(243, 242, 1);  */
     margin: 10px;
   }
 
