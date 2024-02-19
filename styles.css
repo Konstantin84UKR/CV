@@ -1,0 +1,65 @@
+body{
+   background-color: rgb(243, 242, 242);
+}
+
+#top{
+    display: flex; 
+    flex-direction: row;
+    justify-content : space-between;
+    /* background-color: rgb(1, 242, 1); */
+    align-items: baseline
+}
+#name{
+     /* background-color: rgb(1, 242, 242); */
+     margin-left: 25px;
+}
+h1 {
+    font-family: "Courier New", monospace;
+   
+}
+
+.projects{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap ;
+  justify-content :center;
+  background-color: rgb(243, 242, 242);
+}
+
+.project{
+    /* background-color: rgb(73, 73, 73); */
+    width: 400px;
+    height: 400px;   
+    border-radius: 25px;
+    margin: 25px;
+}
+
+img {
+    border-radius: 2%;    
+}
+
+#contact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content :right;
+    /* background-color: rgb(243, 242, 1); */
+    margin: 10px;
+  }
+
+.logo{
+    margin: 5px;
+    border: 2px solid black;
+    width: 48px;
+    height: 48px;   
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.logoEmpty{
+  
+    margin: 5px;   
+    width: 48px;
+    height: 48px;    
+
+}
