@@ -2,7 +2,7 @@ body{
    background-color: rgb(243, 242, 242);
 }
 
-header{
+#headline{
     display: flex; 
     flex-direction: row;
     justify-content : space-between;
@@ -34,7 +34,7 @@ h1 {
     /* background-color: rgb(0, 242, 242); */
   }
 
-.item0{
+.n0{
     /* margin-right: 5px ;  */
     margin-left: 5px ; 
     margin-top: 5px ; 
@@ -42,7 +42,7 @@ h1 {
 
     /* background-color: rgb(0, 0, 242); */
 }  
-.item2{
+.n1{
     margin-right: 5px ;  
     margin-left: 0px ; 
     margin-top: 5px ; 
@@ -50,7 +50,7 @@ h1 {
 
     /* background-color: rgb(0, 0, 242); */
 }   
-.item1{
+.n2{
     margin: 5px; 
     /* background-color: rgb(0, 0, 242); */
 } 
