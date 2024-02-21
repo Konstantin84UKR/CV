@@ -22,8 +22,11 @@ body{
      margin-left: 25px;
 }
 h1 {
-    font-family: "Courier New", monospace;
-   
+    font-family: "Courier New", monospace;   
+}
+
+a {
+    font-family: "Courier New", monospace;   
 }
 
 #top{
