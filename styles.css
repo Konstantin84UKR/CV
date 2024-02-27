@@ -64,6 +64,7 @@ a {
   flex-wrap: wrap ;
   justify-content : left;
   /* background-color: rgb(243, 242, 242); */
+  text-align: center;
 }
 
 .project{
@@ -103,3 +104,25 @@ a {
     height: 48px;    
 
 }
+
+.hr-container {
+    text-align: center;
+  }
+  
+  hr {
+    width: 80%;
+    border: 1px solid rgb(42, 204, 72);
+    margin: 10px auto;
+    flex: 1 1 auto;
+  }
+  
+  .label {
+    position: relative;
+    top: -10px;
+    /* display: inline-block; */
+    padding: 0 5px;
+    background-color: rgb(223, 11, 11);
+    color: #333;
+    font-size: 58px;
+    font-family: "Courier New", monospace; 
+  }
